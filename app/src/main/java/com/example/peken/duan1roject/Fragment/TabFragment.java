@@ -1,4 +1,4 @@
-package com.example.peken.duan1roject;
+package com.example.peken.duan1roject.Fragment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -11,6 +11,8 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.peken.duan1roject.R;
 
 public class TabFragment  extends Fragment {
 
