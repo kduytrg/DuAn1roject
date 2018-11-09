@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "544717370827",
+    "firebase_url": "https://duan1roject.firebaseio.com",
+    "project_id": "duan1roject",
+    "storage_bucket": "duan1roject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544717370827:android:e49234b5f83fda80",
+        "android_client_info": {
+          "package_name": "com.example.peken.duan1roject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544717370827-svh92k54cbvtcn7g2d8l0jmodpgv49q8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.peken.duan1roject",
+            "certificate_hash": "8e4af46d4be3eb665333a22ff2c9dc1a977d0f12"
+          }
+        },
+        {
+          "client_id": "544717370827-r5oh5ruqd5iar0g8t27jmn7fj8uv6rcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf_WEkdVtFvyFmdsdCYNvYqEhjaHEgITs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544717370827-r5oh5ruqd5iar0g8t27jmn7fj8uv6rcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
