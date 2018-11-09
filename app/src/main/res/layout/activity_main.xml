@@ -14,7 +14,7 @@
         android:background="#008577"
         android:id="@+id/toolbar"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="Drawer With Swipe Tabs" />
+        app:title="Book Store" />
 
     <android.support.v4.widget.DrawerLayout
         android:layout_height="match_parent"
