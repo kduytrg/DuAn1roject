@@ -30,6 +30,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
     implementation 'com.google.http-client:google-http-client-android:+'
     implementation 'com.google.api-client:google-api-client-android:+'
     implementation 'com.google.api-client:google-api-client-gson:+'

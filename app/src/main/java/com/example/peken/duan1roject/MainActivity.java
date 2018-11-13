@@ -1,5 +1,6 @@
 package com.example.peken.duan1roject;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
-//    TextView header;
+    TextView header;
     FragmentManager mFragmentManager;
     FragmentTransaction mFragmentTransaction;
 
@@ -44,6 +45,24 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(intent);
 //            }
 //        });
+
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nView);
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                return false;
+            }
+        });
+        View headerview=navigationView.getHeaderView(0);
+        header =(TextView)headerview.findViewById(R.id.tv_acti_log_reg);
+
+        header.setOnClickListener(new View.OnClickListener() {
+            @Override    public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+                startActivity(intent);
+            }
+        });
 
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView = findViewById(R.id.nView);
